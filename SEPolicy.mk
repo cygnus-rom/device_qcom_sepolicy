@@ -24,5 +24,5 @@ PRODUCT_PUBLIC_SEPOLICY_DIRS := \
 PRODUCT_PRIVATE_SEPOLICY_DIRS := \
     $(PRODUCT_PRIVATE_SEPOLICY_DIRS) \
     $(SEPOLICY_PATH)/generic/product/private
-
+-include device/cygnus/sepolicy/qcom/sepolicy.mk
 endif
